@@ -1,0 +1,85 @@
+﻿report_date,client_id,incident_type,medical_attention,report_level,review_completed,location,employee_reporting
+7/22/2019,131,Suicidal ideation,hospitalization,3,Yes,L10014,E10001
+8/20/2019,140,Alleged abuse,none,3,Yes,L10015,E10002
+10/11/2019,140,Alleged abuse,none,3,Yes,L10016,E10003
+11/23/2019,140,Suicidal ideation,hospitalization,3,Yes,L10017,E10011
+4/22/2020,359,Illegal act,none,3,Yes,L10018,E10017
+6/12/2020,359,Alleged abuse,none,3,Yes,L10019,E10019
+1/20/2020,371,Alleged abuse,none,3,Yes,L10020,E10023
+3/18/2020,371,Alleged abuse,none,3,Yes,L10021,E10027
+4/21/2020,380,Suicidal ideation,hospitalization,3,Yes,L10022,E10031
+5/24/2020,380,Suicidal ideation,hospitalization,3,Yes,L10014,E10001
+6/26/2020,380,Alleged abuse,none,3,Yes,L10015,E10002
+7/29/2020,380,Alleged abuse,none,3,Yes,L10016,E10003
+8/19/2019,387,Illegal act,none,3,Yes,L10017,E10011
+4/12/2020,398,Alleged abuse,none,3,Yes,L10018,E10017
+5/23/2020,398,Suicidal ideation,hospitalization,3,Yes,L10019,E10019
+7/1/2019,408,Alleged abuse,none,3,Yes,L10020,E10023
+8/1/2019,408,Alleged abuse,none,3,Yes,L10021,E10027
+8/21/2019,413,Illegal act,none,3,Yes,L10022,E10031
+8/2/2020,415,Alleged abuse,none,3,Yes,L10014,E10001
+6/29/2019,423,Alleged abuse,none,3,Yes,L10015,E10002
+1/20/2020,427,Illegal act,none,3,Yes,L10016,E10003
+11/21/2019,428,Alleged abuse,none,3,Yes,L10017,E10011
+1/1/2020,428,Alleged abuse,none,3,Yes,L10018,E10017
+2/11/2020,428,Alleged abuse,none,3,Yes,L10019,E10019
+6/13/2020,428,Suicidal ideation,hospitalization,3,Yes,L10020,E10023
+7/24/2020,428,Alleged abuse,none,3,Yes,L10021,E10027
+9/3/2020,428,Alleged abuse,none,3,Yes,L10022,E10031
+3/26/2021,436,Suicidal ideation,hospitalization,3,Yes,L10021,E10001
+4/14/2021,436,Suicidal ideation,hospitalization,3,Yes,L10022,E10002
+8/30/2019,131,Destructive behavior,none,2,No,L10014,E10003
+10/16/2019,131,Injury,emergency room,2,No,L10015,E10011
+9/21/2019,140,Destructive behavior,none,2,No,L10021,E10017
+12/20/2020,237,Illegal act,none,2,Yes,L10022,E10019
+5/14/2020,247,Inappropriate sexual behavior,none,2,Yes,L10014,E10023
+1/28/2021,366,Injury,emergency room,2,No,L10015,E10027
+3/2/2020,398,Injury,emergency room,2,Yes,L10021,E10031
+12/14/2020,398,Injury,emergency room,2,No,L10022,E10027
+9/1/2019,408,Inappropriate sexual behavior,none,2,Yes,L10014,E10031
+5/3/2020,428,Inappropriate sexual behavior,none,2,Yes,L10015,E10001
+12/28/2019,452,Injury,emergency room,2,No,L10021,E10002
+9/6/2019,140,Aggressive behavior,none,1,Yes,L10022,E10003
+10/25/2019,140,Injury,basic first aid,1,Yes,L10014,E10027
+11/4/2019,152,Destructive behavior,none,1,No,L10015,E10031
+11/18/2019,152,Injury,basic first aid,1,No,L10021,E10001
+12/17/2019,152,Aggressive behavior,none,1,No,L10022,E10002
+1/18/2020,152,Injury,basic first aid,1,Yes,L10014,E10003
+5/21/2020,237,Destructive behavior,none,1,Yes,L10015,E10027
+7/31/2020,237,Injury,basic first aid,1,No,L10021,E10031
+10/10/2020,237,Aggressive behavior,none,1,Yes,L10022,E10001
+11/21/2019,359,Aggressive behavior,none,1,No,L10014,E10002
+1/11/2020,359,Destructive behavior,none,1,Yes,L10015,E10003
+3/2/2020,359,Aggressive behavior,none,1,Yes,L10021,E10027
+8/16/2020,377,Aggressive behavior,none,1,No,L10022,E10031
+8/31/2020,380,Aggressive behavior,none,1,Yes,L10014,E10001
+3/13/2020,388,Destructive behavior,none,1,Yes,L10015,E10002
+4/21/2020,388,Destructive behavior,none,1,No,L10018,E10003
+10/31/2019,396,Aggressive behavior,none,1,No,L10019,E10027
+7/3/2020,398,Alleged abuse,none,1,No,L10020,E10031
+8/13/2020,398,Injury,basic first aid,1,Yes,L10021,E10001
+9/23/2020,398,Aggressive behavior,none,1,Yes,L10022,E10002
+11/3/2020,398,Injury,basic first aid,1,No,L10014,E10003
+9/20/2019,401,Destructive behavior,none,1,Yes,L10015,E10027
+10/2/2019,408,Aggressive behavior,none,1,No,L10016,E10031
+11/2/2019,408,Injury,basic first aid,1,Yes,L10018,E10001
+6/16/2020,415,Destructive behavior,none,1,Yes,L10019,E10002
+9/18/2020,415,Injury,basic first aid,1,No,L10020,E10003
+11/4/2020,415,Injury,basic first aid,1,Yes,L10021,E10027
+7/18/2019,423,Inappropriate sexual behavior,none,1,Yes,L10022,E10031
+8/6/2019,423,Injury,basic first aid,1,No,L10014,E10001
+8/25/2019,423,Destructive behavior,none,1,No,L10015,E10002
+9/13/2019,423,Destructive behavior,none,1,No,L10016,E10003
+9/20/2019,425,Aggressive behavior,none,1,Yes,L10018,E10027
+2/28/2020,427,Inappropriate sexual behavior,none,1,Yes,L10019,E10031
+4/7/2020,427,Destructive behavior,none,1,No,L10020,E10001
+3/23/2020,428,Injury,emergency room,1,Yes,L10021,E10002
+1/9/2021,436,Aggressive behavior,none,1,No,L10022,E10003
+1/28/2021,436,Destructive behavior,none,1,Yes,L10014,E10027
+2/16/2021,436,Aggressive behavior,none,1,Yes,L10015,E10031
+3/7/2021,436,Aggressive behavior,none,1,No,L10016,E10001
+8/31/2020,449,Destructive behavior,none,1,NA,L10018,E10002
+10/18/2020,449,Destructive behavior,none,1,NA,L10019,E10003
+1/24/2020,452,Destructive behavior,none,1,NA,L10020,E10027
+2/20/2020,452,Aggressive behavior,none,1,NA,L10021,E10031
+3/18/2020,452,Destructive behavior,none,1,NA,L10022,E10001
