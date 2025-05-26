@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Vokabeltrainer – Verwaltung</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Vokabeln verwalten</h1>
+  <a href="quiz.html">Zur Abfrage</a>
+
+  <h2>Neue Vokabel hinzufügen</h2>
+  <input type="text" id="word" placeholder="Deutsch">
+  <input type="text" id="translation" placeholder="Englisch">
+  <button onclick="addVocab()">Hinzufügen</button>
+
+  <h2>Vokabelliste</h2>
+  <div id="vocabList"></div>
+
+  <script>
+    let vocab = JSON.parse(localStorage.getItem("vocabList")) || [];
+
+    function save() {
+      localStorage.setItem("vocabList", JSON.stringify(vocab));
+    }
+
+    function renderList() {
+      const list = document.getElementById("vocabList");
+      list.innerHTML = "";
+      vocab.forEach((entry, index) => {
+        const div = document.createElement("div");
+        div.className = "vocab-card";
+        div.innerHTML = `
+          <span>${entry.word} – ${entry.translation}</span>
+          <div class="actions">
+            <button onclick="editVocab(${index})">Bearbeiten</button>
+            <button onclick="deleteVocab(${index})">Löschen</button>
+          </div>
+        `;
+        list.appendChild(div);
+      });
+    }
+
+    function addVocab() {
+      const word = document.getElementById("word").value.trim();
+      const translation = document.getElementById("translation").value.trim();
+      if (word && translation) {
+        vocab.push({ word, translation });
+        save();
+        renderList();
+        document.getElementById("word").value = "";
+        document.getElementById("translation").value = "";
+      }
+    }
+
+    function editVocab(index) {
+      const newWord = prompt("Neues deutsches Wort:", vocab[index].word);
+      const newTranslation = prompt("Neue Übersetzung:", vocab[index].translation);
+      if (newWord && newTranslation) {
+        vocab[index] = { word: newWord, translation: newTranslation };
+        save();
+        renderList();
+      }
+    }
+
+    function deleteVocab(index) {
+      if (confirm("Wirklich löschen?")) {
+        vocab.splice(index, 1);
+        save();
+        renderList();
+      }
+    }
+
+    renderList();
+  </script>
+</body>
+</html>

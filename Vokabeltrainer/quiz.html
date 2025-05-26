@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Vokabeltrainer – Abfrage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Abfrage</h1>
+  <a href="index.html">Zurück zur Verwaltung</a>
+  <br><br>
+  <button onclick="startQuiz()">Neue Frage</button>
+  <div id="quizArea" style="margin-top: 20px;"></div>
+
+  <script>
+    let vocab = JSON.parse(localStorage.getItem("vocabList")) || [];
+
+    function startQuiz() {
+      if (vocab.length === 0) {
+        alert("Keine Vokabeln vorhanden.");
+        return;
+      }
+      const quizArea = document.getElementById("quizArea");
+      const index = Math.floor(Math.random() * vocab.length);
+      const askGerman = Math.random() > 0.5;
+      const question = askGerman ? vocab[index].word : vocab[index].translation;
+      const correctAnswer = askGerman ? vocab[index].translation : vocab[index].word;
+
+      quizArea.innerHTML = `
+        <p><strong>Was ist die ${askGerman ? "Übersetzung" : "deutsche Bedeutung"} von:</strong> ${question}?</p>
+        <input type="text" id="quizAnswer" placeholder="Antwort eingeben">
+        <button onclick="checkAnswer('${correctAnswer.replace(/'/g, "\\'")}')">Prüfen</button>
+      `;
+    }
+
+    function checkAnswer(correct) {
+      const answer = document.getElementById("quizAnswer").value.trim();
+      if (answer.toLowerCase() === correct.toLowerCase()) {
+        alert("✅ Richtig!");
+      } else {
+        alert(`❌ Falsch. Richtig ist: ${correct}`);
+      }
+      startQuiz();
+    }
+  </script>
+</body>
+</html>
