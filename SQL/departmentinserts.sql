@@ -1,0 +1,12 @@
+INSERT INTO Department VALUES ('SM', 'Sales and Marketing',                     'High Tower',       2,    3,    12, '+49 456-7890');
+INSERT INTO Department VALUES ('FA', 'Finance and Accounting',                  'High Tower',       3,    4,    2,  '+49 456-8901');
+INSERT INTO Department VALUES ('HR', 'Human Resources',                         'Modern Complex',   1,    3,    3,  '+49 678-9012');
+INSERT INTO Department VALUES ('RD', 'Research and Development',                'Modern Complex',   2,    5,    4,  '+49 678-0123');
+INSERT INTO Department VALUES ('PO', 'Production and Operations',               'Old Bunker',       1,    5,    5,  '+49 234-1234');
+INSERT INTO Department VALUES ('IT', 'Information Technology',                  'Old Bunker',       1,    9,    6,  '+49 234-2345');
+INSERT INTO Department VALUES ('CS', 'Customer Service and Support',            'Old Bunker',       1,    4,    7,  NULL);
+INSERT INTO Department VALUES ('LC', 'Legal and Compliance',                    'Modern Complex',   1,    4,    8,  '+49 678-4567');
+INSERT INTO Department VALUES ('QM', 'Quality Management',                      'Old Bunker',       1,    10,   9,  '+49 233-5678');
+INSERT INTO Department VALUES ('LM', 'Logistics and Supply Chain Management',   'Modern Complex',   2,    12,   10, '+49 678-6789');
+INSERT INTO Department VALUES ('PR', 'Public Relations',                        'High Tower',       1,    5,    11, '+49 456-7890');
+INSERT INTO Department VALUES ('CL', 'Cloud Infrastructure',                    'High Tower',       7,    15,    21, '+49 456-7897');
